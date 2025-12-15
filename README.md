@@ -69,6 +69,8 @@ The following models are trained and evaluated using a shared pipeline:
 tabular-classification-benchmark/
 ├── data/
 │ └── data.csv # Preprocessed dataset
+├── scripts/
+│ └── clean_adult_income.py
 ├── src/
 │ ├── data.py # Data loading + preprocessing
 │ ├── models.py # Model factory
